@@ -16,6 +16,7 @@
 		A304DD0A23F8C9D9003718A0 /* LoadingpageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304DD0923F8C9D9003718A0 /* LoadingpageUITests.swift */; };
 		A304DD1823F8CDE6003718A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A304DD1723F8CDE6003718A0 /* LaunchScreen.storyboard */; };
 		A304DD1A23F8D097003718A0 /* ExtentionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304DD1923F8D097003718A0 /* ExtentionHelper.swift */; };
+		A304DD1D23F8ED4A003718A0 /* Loadingpage1.mov in Resources */ = {isa = PBXBuildFile; fileRef = A304DD1C23F8ED4A003718A0 /* Loadingpage1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A304DD0B23F8C9D9003718A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A304DD1723F8CDE6003718A0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A304DD1923F8D097003718A0 /* ExtentionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionHelper.swift; sourceTree = "<group>"; };
+		A304DD1C23F8ED4A003718A0 /* Loadingpage1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Loadingpage1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		A304DCD823F8C9D1003718A0 = {
 			isa = PBXGroup;
 			children = (
+				A304DD1B23F8ED34003718A0 /* Apppreview */,
 				A304DCE323F8C9D1003718A0 /* Loadingpage */,
 				A304DCFD23F8C9D9003718A0 /* LoadingpageTests */,
 				A304DD0823F8C9D9003718A0 /* LoadingpageUITests */,
@@ -129,6 +132,14 @@
 				A304DD0B23F8C9D9003718A0 /* Info.plist */,
 			);
 			path = LoadingpageUITests;
+			sourceTree = "<group>";
+		};
+		A304DD1B23F8ED34003718A0 /* Apppreview */ = {
+			isa = PBXGroup;
+			children = (
+				A304DD1C23F8ED4A003718A0 /* Loadingpage1.mov */,
+			);
+			path = Apppreview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			files = (
 				A304DCF123F8C9D8003718A0 /* Assets.xcassets in Resources */,
 				A304DD1823F8CDE6003718A0 /* LaunchScreen.storyboard in Resources */,
+				A304DD1D23F8ED4A003718A0 /* Loadingpage1.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
